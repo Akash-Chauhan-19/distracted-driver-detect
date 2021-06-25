@@ -53,7 +53,3 @@ def predict():
     #K.clear_session()
     response = {'prediction': str(m)}
     return (response)
-
-
-if __name__ == "__main__":
-    app.run(debug=True)
